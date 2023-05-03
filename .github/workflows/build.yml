@@ -1,0 +1,16 @@
+name: Build extension
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Create release bundle zip file
+        run: |
+          make zip
+      - name: Archive code coverage results
+        uses: actions/upload-artifact@v3
+        with:
+          name: src
+          path: src.zip
