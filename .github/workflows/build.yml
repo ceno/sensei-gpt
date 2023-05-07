@@ -13,4 +13,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: src
-          path: src.zip
+          path: sensei-gpt0.1.zip
