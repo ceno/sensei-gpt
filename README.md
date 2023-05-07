@@ -20,7 +20,7 @@ The extension uses the OpenAI api in the background. This requires an API key, w
 
 The extension is still in development and is not available in the chrome store. Instead it needs to be installed manually using the following steps
 
-1. Download the latest release of the extension zip file
+1. Download the [latest release of the extension zip file](https://github.com/ceno/sensei-gpt/releases/download/v0.1/sensei-gpt-0.1.zip)
 2. Unzip the file and take note of the folder it created
 3. Go to the extensions page of your browser [chrome://extensions](chrome://extensions)
 4. Enable Developer Mode
