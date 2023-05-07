@@ -23,7 +23,7 @@ The extension is still in development and is not available in the chrome store. 
 1. Download the [latest release of the extension zip file](https://github.com/ceno/sensei-gpt/releases/download/v0.1/sensei-gpt-0.1.zip)
 2. Unzip the file and take note of the folder it created
 3. Go to the extensions page of your browser [chrome://extensions](chrome://extensions)
-4. Enable Developer Mode
+4. Enable Developer Mode (on the top right of the extensions page)
 5. Import the extension by dragging the unzipped folder and dropping it anywhere on the page
 
 ### Initial configuration
