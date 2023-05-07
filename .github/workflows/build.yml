@@ -9,8 +9,8 @@ jobs:
       - name: Create release bundle zip file
         run: |
           make zip
-      - name: Archive code coverage results
+      - name: Archive build artifact
         uses: actions/upload-artifact@v3
         with:
-          name: src
-          path: sensei-gpt0.1.zip
+          name: build
+          path: *.zip
