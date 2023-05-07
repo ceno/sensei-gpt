@@ -26,10 +26,12 @@ The extension is still in development and is not available in the chrome store. 
 4. Enable Developer Mode (on the top right of the extensions page)
 5. Import the extension by dragging the unzipped folder and dropping it anywhere on the page
 
+![Screenshot of SenseiGPT installed in the browser.](img/extension_screenshot.png)
+
 ### Initial configuration
 
 Add your API key
-1. Click on `Details`
+1. Click the `Details` button for SenseiGPT in chrome://extensions
 2. Scroll down and click on `Extension options`
 3. Paste your OpenAI API key and click `Save`
 
