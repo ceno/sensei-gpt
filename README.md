@@ -12,7 +12,7 @@ Select a Japanese sentence in the web page you're currently reading, press `Ctrl
 ### OpenAI access
 The extension uses the OpenAI api in the background. This requires an API key, which can be obtained as follow
 1. Go to [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
-2. Sign up for an account if you don't already haveone
+2. Sign up for an account if you don't already have one
 3. Click `Create new secret key`
 4. Take note of the key for later
 
