@@ -45,7 +45,6 @@
         console.log(`Got error!`)
         if(response2.error.code === 'invalid_api_key') {
           document.getElementById("explanation").innerHTML = `The API key is invalid, please set a new key in the options page.`;
-          //document.getElementById("explanation").innerHTML = `Error! ${response2.error.code}:${response2.error.message}`;
         } else {
           document.getElementById("explanation").innerHTML = `Error! ${response2.error.code}:${response2.error.message}`;
         }
@@ -54,10 +53,6 @@
         console.log(`Got response: ${response2.choices[0].message.content}`)
         document.getElementById("explanation").innerHTML = response2.choices[0].message.content.replace(/\n/g, "<BR>");
       }
-
-      
-      //const { text } = choices[0];
-  
       console.log(response2);
     } catch (error) {
       console.log("Error: " + error.message)
