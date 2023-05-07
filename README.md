@@ -12,8 +12,8 @@ Select a Japanese sentence in the web page you're currently reading, press `Ctrl
 ### OpenAI access
 The extension uses the OpenAI api in the background. This requires an API key, which can be obtained as follow
 1. Go to [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
-2. Sign up for an account if you don't already have one
-3. Click `Create new secret key`
+2. Sign up for an account if you don't already have one. Only paid accounts can use the API, so you will also need to upgrade your account by adding a payment method at [https://platform.openai.com/account/billing/overview](https://platform.openai.com/account/billing/overview).
+3. Click `Create new secret key` and name it `SenseiGPT`
 4. Take note of the key for later
 
 ### Manual installation
@@ -22,7 +22,7 @@ The extension is still in development and is not available in the chrome store. 
 
 1. Download the [latest release of the extension zip file](https://github.com/ceno/sensei-gpt/releases/download/v0.1/sensei-gpt-0.1.zip)
 2. Unzip the file and take note of the folder it created
-3. Go to the extensions page of your browser [chrome://extensions](chrome://extensions)
+3. Go to the extensions page of your browser at the url [chrome://extensions](chrome://extensions)
 4. Enable Developer Mode (on the top right of the extensions page)
 5. Import the extension by dragging the unzipped folder and dropping it anywhere on the page
 
