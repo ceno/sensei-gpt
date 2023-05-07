@@ -35,3 +35,4 @@ Add your API key
 2. Scroll down and click on `Extension options`
 3. Paste your OpenAI API key and click `Save`
 
+You're ready to go! To test it try highlighting the following and pressing Ctrl+Shit+Y or Cmd+Shift+Y: 頑張れ！
