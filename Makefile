@@ -1,8 +1,9 @@
+version = sensei-gpt-0.2.0
 .PHONY: clean
 zip:
-	mkdir sensei-gpt-0.1
-	cp -r src/* sensei-gpt-0.1
-	zip -r sensei-gpt-0.1.zip sensei-gpt-0.1/*
+	mkdir $(version)
+	cp -r src/* $(version)
+	zip -r $(version).zip $(version)/*
 clean:
-	rm -rf sensei-gpt-0.1 sensei-gpt-0.1.zip
+	rm -rf $(version) $(version).zip
 
