@@ -12,7 +12,7 @@
   function getTitle() { return window.getSelection().toString(); }
 
   let injectionResults = await chrome.scripting.executeScript({
-    target : {tabId : tab.id, allFrames : true},
+    target : {tabId : tab.id, allFrames : false},
     func : getTitle,
   })
 
