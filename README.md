@@ -14,7 +14,7 @@ The extension uses the OpenAI api in the background. This requires an API key, w
 1. Go to [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
 2. Sign up for an account if you don't already have one. Only paid accounts can use the API, so you will also need to upgrade your account by adding a payment method at [https://platform.openai.com/account/billing/overview](https://platform.openai.com/account/billing/overview).
 3. Click `Create new secret key` and name it `SenseiGPT`
-4. Take note of the key for later
+4. Take note of the key for later, as you won't be able to see it again if you close the tab
 
 ### Manual installation
 
